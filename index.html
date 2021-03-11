@@ -8,18 +8,64 @@
     <link rel="stylesheet" type="text/css" href="./Give Me a Title!_files/style.css">  <!-- Insert StyleSheet -->
     <link rel="icon" href="https://cardadfar.github.io/stuco_webdev_website/assets/files/cool-icon.png">                    <!-- Insert Icon -->
     <script src="./Give Me a Title!_files/jquery.min.js.download"></script>
+   
 </head>
 <body>
+    <style>
+        * {
+            font-family: arial;
+        }
+        .header{
+            display: flex;
+        }
+        .nav-bar {
+            width: 80%;
+            height: 100px;
+            margin: 0;
+            background: grey;
+            color: white; 
+            display: inline-block;
+        }
+        .nav-bar > .text {
+            margin: 10px 10px;
+            text-decoration: none; 
+        }
+        .nav-bar > .element {
+            width: 19%;
+            line-height: 40px;
+            text-align: center;
+            color: white;
+            display: inline-block;
+            margin: 0;
+            text-decoration: none; 
+        }
+        .upRLogo {
+            flex-grow: 1;
+            margin: 0% 1% ;
+            line-height: 70px;
+            width: 18%;
+            text-align: center;
+            margin: 0;
+        }
+    </style>
+    <div class=header>
+        <div class=nav-bar>
+            <h1 class="text">Hiya, I'm Kevin Song</h1>
+            <a href="https://kevinson-cmu.github.io/" class="element"> Home </a>
+            <a href="https://kevinson-cmu.github.io/" class="element"> Home </a>
+            <a href="https://kevinson-cmu.github.io/" class="element"> Home </a>
+            <a href="https://kevinson-cmu.github.io/" class="element"> Home </a>
+            <a href="https://kevinson-cmu.github.io/" class="element"> Home </a>
+        </div>
+        <div class = upRLogo>
+            <img src="images/al.jpg" width="100" height="100"></img>
+        </div>
+    </div>
 
-    <img src="images/al.jpg" width="400" height="400"></img>
-    <h1>Hiya, I'm Kevin Song</h1>
     <p> I'm a first-year planning on majoring in ECE, and I'm planning on 
         using this website to be a sorta informal resume/info page about 
-        myself, as well as maybe shilling a few things (like the fact that
-        I'm running to be a CIT student senator rn, and that I need CIT 
-        folks to sign a <a href="https://stugov.andrew.cmu.edu/elections/spring-2021-general-election/petitions/27">petition</a> to 
-        get my name on the ballot). Otherwise, feel free to browse around
-        once things get added :p
+        myself, as well as maybe shilling a few things. Otherwise, feel free 
+        to browse around once things get added :p
     </p>
     <p>this input field doesn't do anything, but one day it might :]</p>
     <input type="text">
